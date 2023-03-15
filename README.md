@@ -15,3 +15,6 @@ docker build -t google-analytics-example .
 ```
 docker run --name google-analytics-example -e GA_API_SECRET=**your_api_secret** -e GA_MEASUREMENT_ID=**your_measurement_id** -p 80:8080 google-analytics-example
 ```
+
+# GA dashboard
+![Alt text](/ga4-screen-report/ga4-events.png?raw=true "Spring Boot metrics")
